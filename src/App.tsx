@@ -1,12 +1,9 @@
+import { CalcBoard } from './components/CalcBoard'
 
-function App() {
-
-  return (
-    <h1>
-      My calculator
-      </h1>
-
-  )
+export default function App() {
+	return (
+		<div className="container mx-auto flex  flex-col justify-center items-center">
+			<CalcBoard />
+		</div>
+	)
 }
-
-export default App
